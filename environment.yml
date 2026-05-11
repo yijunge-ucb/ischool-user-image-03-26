@@ -4,21 +4,11 @@ channels:
   - conda-forge
 
 dependencies:
-  # vscode
-  - code-server==4.96.2
-  - jupyter-vscode-proxy==0.6
-
   # other packages
-  - syncthing==1.29.2
   - jupyter-rsession-proxy==2.2.1
-  - jupyter-syncthing-proxy==1.0.3
   - traitlets==5.14.3
   - appmode==1.0.0
-  - ipywidgets==8.1.5
 
   - pip:
-      # for notebook exporting
-      - nb2pdf==0.6.2
-      - nbpdfexport==0.2.1
       # from infra-requirements
       - git+https://github.com/shaneknapp/python-popularity-contest.git@add-error-handling
